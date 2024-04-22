@@ -1,0 +1,143 @@
+/* Fonts 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: LTSuperior-Bold;
+  src: url("../fonts/LT-Superior/LTSuperior-Bold.woff");
+}
+
+@font-face {
+  font-family: LTSuperior-Regular;
+  src: url("../fonts/LT-Superior/LTSuperior-Regular.woff");
+}
+
+/* General Styles */
+body {
+    font-family: "LTSuperior-Regular";
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    font-family: "LTSuperior-Regular";
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer {
+    margin-bottom: 20px;
+}
+
+.section {
+    font-family: "LTSuperior-Bold";
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: "LTSuperior-Bold";
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    font-family: "LTSuperior-Regular";
+    color: black;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.link-collection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.link-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-family: "LTSuperior-Regular";
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-right: 5px; /* Adjust this value to control spacing between links */
+    white-space: nowrap;
+}
+
+.link-current {
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+    margin-right: 5px; /* Adjust this value to control spacing between links */
+    white-space: nowrap;
+}
+
+.link:last-child {
+    margin-right: 0;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    font-family: "LTSuperior-Regular";
+    font-size: 12px;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+}
+
